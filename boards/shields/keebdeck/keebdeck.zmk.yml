@@ -6,5 +6,4 @@ url: https://www.solder.party/keeb
 requires: [seeeduino_xiao_ble]
 features:
   - keys
-  - display
   - studio
