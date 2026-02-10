@@ -4,7 +4,7 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define BASE 0
-#define ADDI  1
+#define ADDI 1
 
 / {
     keymap {
