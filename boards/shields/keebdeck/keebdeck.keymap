@@ -19,17 +19,17 @@
             >;
         };
 
-        /* addi { */
-        /*     display-name = "ADDI"; */
-        /*     bindings = < */
-        /*         &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2                                                    &kp F4    &kp F5    &kp F6    &kp BSPC */
-        /*         &kp GRAVE   &kp F1        &kp F2        &kp F3        &kp F4    &kp F5    &kp F6    &kp F7    &kp F8    &kp F9    &kp F0    &kp MINUS &kp EQUAL */
-        /*         &kp TAB     &kp Q         &kp W         &kp E         &kp R     &kp T     &kp Y     &kp U     &kp UP    &kp O     &kp P     &kp LBKT  &kp RBKT */
-        /*         &mo 1       &kp A         &kp S         &kp D         &kp F     &kp G     &kp H     &kp LEFT  &kp DOWN  &kp RIGHT &kp SEMI  &kp SQT   &kp ENTER */
-        /*         &kp LSHFT   &kp Z         &kp X         &kp C         &kp V     &kp B     &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH  &kp UP    &kp RSHFT */
-        /*         &kp RCTRL   &kp LGUI      &kp LALT      &kp BSLH      &mo 1               &kp SPACE           &kp RGUI  &kp RALT  &kp LEFT  &kp DOWN  &kp RIGHT */
-        /*     >; */
-        /* }; */
+        navi {
+            display-name = "navi";
+            bindings = <
+                &kp ESC   &kp F1    &kp F2    &kp F3                                                      &kp F4    &kp F5    &kp F6    &kp BSPC
+                &kp GRAVE &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6    &kp F7    &kp F8    &kp F9    &kp F10   &kp F11   &kp F12
+                &kp TAB   &kp Q     &kp W     &kp E     &kp R     &kp T     &kp Y     &kp U     &kp UP    &kp O     &kp P     &kp LBKT  &kp RBKT
+                &mo 1     &kp A     &kp S     &kp D     &kp F     &kp G     &kp H     &kp LEFT  &kp DOWN  &kp RIGHT &kp SEMI  &kp SQT   &kp ENTER
+                &kp LSHFT &kp Z     &kp X     &kp C     &kp V     &kp B     &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH  &kp UP    &kp RSHFT
+                &kp RCTRL &kp LGUI  &kp LALT  &kp BSLH  &mo 1               &kp SPACE           &kp RGUI  &kp RALT  &kp LEFT  &kp DOWN  &kp RIGHT
+            >;
+        };
 
         extra_1 {
                 status = "reserved";
