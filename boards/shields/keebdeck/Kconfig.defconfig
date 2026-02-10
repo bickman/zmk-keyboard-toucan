@@ -1,0 +1,11 @@
+config ZMK_KEYBOARD_NAME
+    default "keebdeck"
+
+# config SPI
+#     default y
+#
+# config ZMK_POINTING
+#     default y
+
+config RGBLED_WIDGET_BATTERY_LEVEL_HIGH
+    default 40

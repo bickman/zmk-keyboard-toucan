@@ -1,0 +1,12 @@
+file_format: "1"
+id: keebdeck
+name: keebdeck
+type: shield
+url: https://www.solder.party/keeb
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+  - display
+  - studio
+# siblings:
+#   - keebdeck
